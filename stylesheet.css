@@ -563,6 +563,41 @@ header {
 	letter-spacing:-.5px;
 	line-height:1.5em;
 }
+/* █████████████████████████████████████████ CREDIT LIST */
+.credits {
+    line-height:1.5em;
+}
+.credits li {
+    padding:5px 0 0 0;
+    line-height:1.25em;
+    font-size:1em;
+    color:#A78DDA;
+}
+.credits ul {
+    padding:0 0 20px 5px;
+    list-style-type:none;
+}
+.normal-list {
+    line-height:1.5em;
+}
+.normal-list li {
+    padding:5px 0 0 5px;
+    line-height:1.25em;
+    font-size:1em;
+    color:#A78DDA;
+}
+.normal-list ul {
+    padding-left:20px;
+    padding-bottom:20px;
+}
+/* ███████████████████████████████████████████████ ABOUT */
+.about {
+    font-family: 'Work Sans';
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: -1px;
+	text-align:justify;
+}
 /* ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ DESKTOP
    ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ◉ 1037px or less     */
 @media all and (max-width: 1037px) {
