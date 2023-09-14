@@ -336,35 +336,23 @@ header {
 /* ███████████████████████████████████████████ AGA TABLE */
 .aga-table {
 	display: table;
-	width: fit-content;
-	margin: auto;
-	padding: 10px;
-	border-collapse: collapse;
-    	width: fit-content;
+	width: auto;
 	margin: auto;
 	padding: 10px;
 	text-align: center;
 	font-family:'Work Sans';
-	font-weight:600;
-	display: flex;
-.aga-table ul {
-	padding:0;
-	list-style-type:none;
-}
-.aga-table li {
-	padding:5px 0 5px 0;
 	font-weight:500;
-	letter-spacing:-.35px;
-	line-height:1.25em;
+	letter-spacing:-.3px;
 }
-.aga-table-left {
-	width: 50%;
-	margin-right: 10px;
+.aga-table-cell {
+	padding:10px;
+	margin:10px;
+	border-radius:5px;
+	border:2px solid #701E2E;
 }
-.aga-table-right {
-	width: 50%;
-	margin-left: 10px;
-	text-align: right;
+.aga-link {
+	font-size:1.25em;
+	font-weight:600;
 }
 /* ██████████████████████████████████████████ DISCLAIMER */
 .disclaimer {
