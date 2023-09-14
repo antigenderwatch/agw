@@ -212,6 +212,31 @@ header {
 	white-space:nowrap;
 	overflow:hidden;
 }
+.nav-title {
+	padding:10px 0 10px 0;
+	font-family:'Work Sans';
+	font-size:45px;
+	font-weight:800;
+	letter-spacing:-1.5px;
+	background:#B53352;
+	background:-moz-linear-gradient(
+		90deg, 
+		#B53352 0%,
+		#701E2E 100%);
+	background:-webkit-linear-gradient(
+		90deg, 
+		#B53352 0%, 
+		#701E2E 100%);
+	background:linear-gradient(
+		90deg, 
+		#B53352 0%, 
+		#701E2E 100%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	transition:all 0.3s ease;
+	white-space:nowrap;
+	overflow:hidden;
+}
 /* NAV ITEMS */
 .nav-item {
 	margin-left:1.7em;
